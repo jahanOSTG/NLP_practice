@@ -2,9 +2,9 @@ import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
-text= "I am Janie"
-sentencrs=nltk.sent_tokenize(text)
+text= "I am Faria Jahan Janie.I don't love coding"
+sentence=nltk.sent_tokenize(text)
 words=nltk.word_tokenize(text)
 
-print("Sentence :",sentencrs)
-print("Word",words)
+print("Sentence Tokenization :",sentence)
+print("Word Tokenization",words)
